@@ -6,9 +6,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ebd5b3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.subtitle {
+    font-family: 'Old Standard TT', serif;
+}
+
+.rightNav {
+    width: 15vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    right: 1vw;
+    top: 10vh;
+    padding: 5px;
+    z-index: 1000;
+}
+
+.rightNav p {
+    margin-bottom: 0;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
+.infoNorth {
+    color: #4d2e6b;
+}
+
+.silenceNorth {
+    color: rgb(183, 121, 14);
+}
+
+.infoSlaveryMem {
+    color: rgb(57, 140, 35);
+}
+
+.infoHeffen {
+    color: #83682a;
+}
+
+.silenceHeffen {
+    color: #c04343;
+}
+
+.infoHill {
+    color: #4c829a;
+}
+
+.infoFox {
+    color: #0e8e82;
+}
+
+.silenceFox {
+    color: #9e3463;
+}
+
+.negative {
+  color: black !important;
+  font-weight: 700;
 }
